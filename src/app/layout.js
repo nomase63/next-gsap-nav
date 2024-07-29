@@ -1,7 +1,14 @@
-import { Inter } from "next/font/google";
+import { Inter, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
+import Menu from "@/components/menu/Menu";
+
 const inter = Inter({ subsets: ["latin"] });
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  variable: '--plus-jakarta-sans-font',
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +18,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${plusJakartaSans.variable} ${inter.variable}`}>
+        <Menu />
+        {children}
+      </body>
     </html>
   );
 }
