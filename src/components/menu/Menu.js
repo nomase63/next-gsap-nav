@@ -97,11 +97,9 @@ const Menu = () => {
                 </div>
                 <div className="menu-info">
                     <div className="menu-info-col">
-                        <a href="#">X &#8599;</a>
-                        <a href="#">Instagram &#8599;</a>
-                        <a href="#">LinkedIn &#8599;</a>
-                        <a href="#">Behance &#8599;</a>
-                        <a href="#">Dribble &#8599;</a>
+                        <a href="#">GitHub</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Notion</a>
                     </div>
                     <div className="menu-info-col">
                         <p>info@nomasekingsley.com</p>
