@@ -18,7 +18,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Plus Jakarta Sans, a custom Google Font.
+
+## Custom Nav Component
+
+This project includes a custom Nav component built for navigation purposes. The Nav component is designed to provide a seamless and responsive navigation experience for the users.
 
 ## Learn More
 
