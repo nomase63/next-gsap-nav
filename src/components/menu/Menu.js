@@ -97,13 +97,9 @@ const Menu = () => {
                 </div>
                 <div className="menu-info">
                     <div className="menu-info-col">
-<<<<<<< HEAD
                         <a href="#">Instagram</a>
                         <a href="#">GitHub</a>
-=======
-                        <a href="#">GitHub</a>
                         <a href="#">Instagram</a>
->>>>>>> b129b8ae584e48ed2cf97d1ab57597aec81eaa6a
                         <a href="#">Notion</a>
                     </div>
                     <div className="menu-info-col">
